@@ -47,8 +47,24 @@ table {
 /* Site-specific CSS */
 
 body {
-    margin: 1em;
+    max-width: 1024px;
+    margin: 1em auto;
+    padding: 0 1em;
     font-family: 'Roboto', sans-serif;
+    line-height: 1.25em;
+}
+
+main {
+    border: 2px solid yellow;
+}
+
+section {
+    border: 1px dashed red;
+    padding-bottom: 1em;
+}
+
+section section:last-child {
+    padding-bottom: 0;
 }
 
 header {
@@ -57,9 +73,23 @@ header {
     margin-bottom: 1em;
 }
 
-nav {
+nav ul {
+    text-align: center;
     border: 1px dashed red;
-    margin: 3m;
+    padding: 0.25em;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0em 0.5em;
+}
+
+li {
+    list-style-type: disc;
+    list-style-position: inside;
+    text-indent: -1em;
+    padding-left: 2.5em;
+    
 }
 
 h1, h2, h3, h4, p {
