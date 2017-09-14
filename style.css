@@ -46,18 +46,39 @@ table {
 
 /* Site-specific CSS */
 
-html {
+body {
     margin: 1em;
-    font-family: font-family: 'Roboto', sans-serif;
-    
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    border: 3px solid black;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+nav {
+    border: 1px dashed red;
+    margin: 3m;
+}
+
+h1, h2, h3, h4, p {
+    padding: 0.5em 0em;
 }
 
 h1 {
+    text-align: center;
+    border: 2px dashed blue;
     font-size: 2em;
+   
 }
 
 h2 {
     font-size: 1.75em;
+}
+
+header h2 {
+    text-align: center;
 }
 
 h3 {
