@@ -105,6 +105,17 @@ nav ul li {
     padding: 0em 1em;
 }
 
+a {
+    color: #00A3F2; 
+}
+
+a:hover {
+    color: #57D6FF;
+}
+nav ul li a {
+    color: #00A3F2;
+    text-decoration: none;
+}
 li {
     list-style-type: disc;
     list-style-position: inside;
@@ -120,12 +131,12 @@ h1, h2, h3, h4, p {
 }
 
 
-
 h1 {
     /* border: 2px dashed blue; */
+    font-family: 'Passion One', sans-serif;
     text-align: center;
-    font-size: 2.25em;
-    font-weight: 500;
+    font-size: 3em;
+    font-weight: 300;
     
 }
 
@@ -136,6 +147,9 @@ h2 {
 
 header h2 {
     text-align: center;
+    font-size: 1.5em;
+    font-weight: 200;
+    padding-top: 0;
 }
 
 h3 {
@@ -148,9 +162,11 @@ h4 {
 
 p {
     padding-bottom: 0.75em;
+    
 }
 
 p, li{
+    font-weight: 300;
     font-size: 1em;
     line-height: 1.5em;
 }
