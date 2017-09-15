@@ -91,7 +91,10 @@ header {
 }
 
 footer {
+    text-align: center;
     background-color: grey;
+    height: 50px;
+    padding: 2em;
 }
 
 nav ul {
@@ -174,4 +177,67 @@ p, li{
 #creations li {
     list-style-type: none;
     padding-left: 1em;
+}
+
+aside {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgba(148,198,229, 0.4);
+    margin: 1em;
+    padding: 1em;
+    height: auto;
+    max-width: 800px;
+}
+
+/* images formatting */
+
+.container {
+    margin-top: 0.5em;
+    margin-right: auto;
+    display: inline-block;
+    position: relative;
+    width: 32.5%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: grey;
+    text-align: center;
+}
+
+.container:hover .overlay {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.image-text {
+    color: white;
+    font-size: 1.5em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hover-image {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+
+.screenshot {
+    display: inline-block;
+    margin: auto;
+    padding-right: 0.25em;
+    padding-top: 1em;
+    width: 40%;
+    height: auto;
 }
