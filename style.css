@@ -191,6 +191,10 @@ aside {
 
 /* images formatting */
 
+caption {
+    display: block;
+}
+
 .container {
     margin-top: 0.5em;
     margin-right: auto;
